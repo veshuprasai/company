@@ -102,7 +102,7 @@ class CompanyController extends Controller
         $update->nepalidate = $request->nepalidate;
         $update->is_active = $request->publish;
         $update->update();
-        return redirect()->route('company.show', $id)->with('msg', 'Congratulation! New Company Created');
+        return redirect()->route('company.show', $id)->with('msg', 'Congratulation! Company updated successfully');
     }
 
     public function delete($id)

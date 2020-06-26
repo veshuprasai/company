@@ -8,6 +8,7 @@
 
   <form action="{{ route('file.store') }}" method="post" enctype="multipart/form-data">
     <div class="row">
+      
       <div class="form-group col-sm">
           <label for="exampleFormControlFile1">Upload File</label>
           <input type="file" name="image" id="image">
